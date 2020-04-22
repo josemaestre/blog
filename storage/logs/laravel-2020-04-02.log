@@ -1,0 +1,29 @@
+[2020-04-02 15:12:05] local.ERROR: Erroneous data format for unserializing 'Symfony\Component\Routing\CompiledRoute' {"exception":"[object] (ErrorException(code: 0): Erroneous data format for unserializing 'Symfony\\Component\\Routing\\CompiledRoute' at C:\\laragon\\www\\lara\\KeepLearning\\bootstrap\\cache\outes.php:15)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Erroneous data ...', 'C:\\\\laragon\\\\www\\\\...', 15, Array)
+#1 C:\\laragon\\www\\lara\\KeepLearning\\bootstrap\\cache\outes.php(15): unserialize('O:34:\"Illuminat...')
+#2 C:\\laragon\\www\\lara\\KeepLearning\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(75): require('C:\\\\laragon\\\\www\\\\...')
+#3 C:\\laragon\\www\\lara\\KeepLearning\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(875): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}(Object(Illuminate\\Foundation\\Application))
+#4 C:\\laragon\\www\\lara\\KeepLearning\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(824): Illuminate\\Foundation\\Application->fireAppCallbacks(Array)
+#5 C:\\laragon\\www\\lara\\KeepLearning\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#6 C:\\laragon\\www\\lara\\KeepLearning\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(219): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#7 C:\\laragon\\www\\lara\\KeepLearning\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(156): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#8 C:\\laragon\\www\\lara\\KeepLearning\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(140): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#9 C:\\laragon\\www\\lara\\KeepLearning\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#10 C:\\Users\\jgm\\.vscode\\extensions\\tiansin.vscode-laravel-assist-0.1.7\\assets\\cache\\RAQOtXB9(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#11 {main}
+"} 
+[2020-04-02 15:16:11] local.ERROR: Erroneous data format for unserializing 'Symfony\Component\Routing\CompiledRoute' {"exception":"[object] (ErrorException(code: 0): Erroneous data format for unserializing 'Symfony\\Component\\Routing\\CompiledRoute' at C:\\laragon\\www\\lara\\KeepLearning\\bootstrap\\cache\outes.php:15)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Erroneous data ...', 'C:\\\\laragon\\\\www\\\\...', 15, Array)
+#1 C:\\laragon\\www\\lara\\KeepLearning\\bootstrap\\cache\outes.php(15): unserialize('O:34:\"Illuminat...')
+#2 C:\\laragon\\www\\lara\\KeepLearning\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(75): require('C:\\\\laragon\\\\www\\\\...')
+#3 C:\\laragon\\www\\lara\\KeepLearning\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(875): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}(Object(Illuminate\\Foundation\\Application))
+#4 C:\\laragon\\www\\lara\\KeepLearning\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(824): Illuminate\\Foundation\\Application->fireAppCallbacks(Array)
+#5 C:\\laragon\\www\\lara\\KeepLearning\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#6 C:\\laragon\\www\\lara\\KeepLearning\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(219): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#7 C:\\laragon\\www\\lara\\KeepLearning\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(320): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#8 C:\\laragon\\www\\lara\\KeepLearning\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#9 C:\\laragon\\www\\lara\\KeepLearning\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 {main}
+"} 
